@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Reset some default styles */\
+body, h1, p \{\
+  margin: 0;\
+  padding: 0;\
+\}\
+\
+/* Global styles */\
+body \{\
+  background-color: black;\
+  color: white;\
+  font-family: Menlo, monospace;\
+\}\
+\
+/* Page content */\
+.page-content \{\
+  display: flex;\
+  flex-direction: column;\
+  min-height: 100vh;\
+\}\
+\
+.body-content \{\
+  flex-grow: 1;\
+  display: flex;\
+  align-items: center;\
+  justify-content: center;\
+\}\
+\
+.center-image \{\
+  max-width: 100%;\
+  height: auto;\
+  transition: transform 0.3s ease;\
+\}\
+\
+.center-image:hover \{\
+  transform: scaleX(-1);\
+\}\
+\
+/* Footer styles */\
+footer \{\
+  text-align: center;\
+  padding: 20px 0;\
+\}\
+\
+.footer-line \{\
+  border: 1px solid darkgrey;\
+\}\
+\
+.footer-logo \{\
+  width: 12%;\
+  margin: 20px 0;\
+\}\
+\
+.footer-btc \{\
+    width: 12%;\
+    margin: 20px auto;\
+    display: block;\
+\}\
+\
+.footer-text \{\
+  font-style: italic;\
+\}\
+}
