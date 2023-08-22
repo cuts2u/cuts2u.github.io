@@ -3,14 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href=“{{site.baseurl}}/index_styles.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/index_styles.css">
   <title>Cuts 2 U</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styles */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Menlo, monospace;
+    }
+
+    /* Page content */
+    .page-content {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .body-content {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .center-image {
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .center-image:hover {
+      transform: scaleX(-1);
+    }
+
+    /* Footer styles */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .footer-line {
+      border: 1px solid darkgrey;
+    }
+
+    .footer-logo {
+      width: 12%;
+      margin: 20px 0;
+    }
+
+    .footer-btc {
+      width: 12%;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .footer-text {
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
   <div class="page-content">
     <div class="body-content">
-      <a href="./Melbourne.html”>
-        <img src=“./Cuts2u_running.png" alt="Melbourne Image" class="center-image">
+      <a href="./Melbourne.html">
+        <img src="./Cuts2u_running.png" alt="Melbourne Image" class="center-image">
       </a>
     </div>
     <footer>
