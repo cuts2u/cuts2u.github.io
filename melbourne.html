@@ -1,214 +1,198 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{site.baseurl}}/styles.css">
+    <title>Cuts 2 U - Delivery Barber Services</title>
+    <style>
+        /* Reset default styles */
+        body, h1, h2, p, hr {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Menlo", monospace;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo {
+            width: 15%;
+        }
+
+        .company-name {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .left-column {
+            flex: 2;
+            padding: 12px;
+        }
+
+        .right-column {
+            flex: 1;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+        }
+
+        .align-right {
+            text-align: right;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid darkgrey;
+            border-radius: 10px;
+        }
+
+        .contact-form label, .contact-form input, .contact-form select, .contact-form textarea {
+            display: block;
+            margin-bottom: 5px;
+            width: 100%;
+            padding: 1px;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .testimonial {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .footer-line {
+            border: 1px solid darkgrey;
+            margin: 20px 0;
+        }
+
+        .footer-logo {
+            width: 12%;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .footer-btc {
+            width: 12%;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="{{site.baseurl}}/m_styles.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Cuts 2 U - Delivery Barber Services&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>/* Reset default styles */</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body, h1, h2, p, hr {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: "Menlo", monospace;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: black;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.logo {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 15%;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.company-name {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.content {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-around;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.left-column {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex: 2;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.right-column {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex: 1;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.image {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>height: auto;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.align-right {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: right;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.italic {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-style: italic;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.bold {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.contact-form {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid darkgrey;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.contact-form label, .contact-form input, .contact-form select, .contact-form textarea {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 1px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.testimonials {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.testimonial {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex: 1;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.footer-line {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid darkgrey;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.footer-logo {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 12%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.footer-btc {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 12%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>.footer-text {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="logo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1 class="company-name"&gt;Cuts 2 U&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="left-column"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="bold"&gt;About Us.&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="align-right"&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Too busy to get to the barber shop? Cuts 2 U, comes to you.&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Our team of professional barbers are available for call out to your Home, Office, Hotel or AirBnB.&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Arrived on a late flight or have early meeting? We’ll have you looking sharp.&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Individuals, families or group bookings available.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="bold"&gt;Service List.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="italic align-right"&gt;&lt;br&gt;Call out service fee and haircut.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="bold align-right"&gt;$150&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="italic align-right"&gt;&lt;br&gt;Haircuts there after.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="bold align-right"&gt;$90&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="italic align-right"&gt;&lt;br&gt;We accept all major cards, cash and bitcoin.&lt;/p&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="bold"&gt;Service Area.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="align-right"&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Melbourne CBD | Southbank | Docklands | North Melbourne &lt;br&gt; East Melbourne | South Melbourne | West Melbourne | &amp; Fringe Suburbs</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="italic align-right"&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Get in contact today.&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Save time and go nowhere.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="contact-form align-left"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="bold"&gt;Get in Contact.&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;form action="mailto:sine.radiant_05@icloud.com" method="post" enctype="text/plain"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="align-right"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="name"&gt;Name/Nym:&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="text" id="name" name="name" required&gt;&lt;br&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="email"&gt;Email:&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="email" id="email" name="email" required&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="phone"&gt;Phone number:&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="tel" id="phone" name="phone"&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label for="services"&gt;Services required:&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;textarea id="services" name="services" rows="4"&gt;Tell us what you want done, your location and a time window <span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/textarea&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="submit" value="Submit"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="right-column"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="./Cuts2u_running.png" alt="Barber Image" class="image"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="testimonials"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="testimonial"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>"My flight was delayed and I really needed a haircut for my daughters wedding the next day. I arranged for Cuts 2 U to come to my hotel early in the morning. Excellent service and a great haircut. Thank’s, Ben."</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="testimonial"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>"Had Cuts 2 U comes to our office in the Melbourne City once a month. It saves the office so much time. Sincerely, Xi."</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="testimonial"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>"I travel a lot for work. Having Cuts 2 U come to my hotel while in Melbourne to cut my hair saves me a lot of time in my busy schedule. Regards, Walter."</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;hr class="footer-line"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="footer-logo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="./Bitcoin_logo.png" alt="BTC Logo" class="footer-btc"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="footer-text italic"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>Save time and go nowhere, let Cuts 2 U come to you.&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&amp;copy; 2023 Cuts 2 U.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <header>
+        <img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="logo">
+        <h1 class="company-name">Cuts 2 U</h1>
+    </header>
+
+    <div class="content">
+        <div class="left-column">
+            <h2 class="bold">About Us.</h2>
+            <p class="align-right"><br>
+                Too busy to get to the barber shop? Cuts 2 U, comes to you.<br>
+                Our team of professional barbers are available for call out to your Home, Office, Hotel or AirBnB.<br>
+                Arrived on a late flight or have early meeting? We’ll have you looking sharp.<br>
+                Individuals, families or group bookings available.
+            </p><br>
+            <p class="bold">Service List.</p>
+            <p class="italic align-right"><br>Call out service fee and haircut.</p>
+            <p class="bold align-right">$150</p>
+            <p class="italic align-right"><br>Haircuts there after.</p>
+            <p class="bold align-right">$90</p>
+            <p class="italic align-right"><br>We accept all major cards, cash and bitcoin.</p><br>
+            <p class="bold">Service Area.</p>
+            <p class="align-right"><br>
+                Melbourne CBD | Southbank | Docklands | North Melbourne <br> East Melbourne | South Melbourne | West Melbourne | & Fringe Suburbs
+            </p>
+            <p class="italic align-right"><br>
+                Get in contact today.<br>
+                Save time and go nowhere.
+            </p>
+            <div class="contact-form align-left">
+                <h2 class="bold">Get in Contact.</h2>
+                <form action="mailto:sine.radiant_05@icloud.com" method="post" enctype="text/plain">
+                    <p class="align-right">
+                        <label for="name">Name/Nym:</label>
+                        <input type="text" id="name" name="name" required><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone"><br>
+                        <label for="services">Services required:</label>
+                        <textarea id="services" name="services" rows="4">Tell us what you want done, your location and a time window  
+                        </textarea><br>
+                        <input type="submit" value="Submit">
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="./Cuts2u_running.png" alt="Barber Image" class="image">
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>
+                "My flight was delayed and I really needed a haircut for my daughters wedding the next day. I arranged for Cuts 2 U to come to my hotel early in the morning. Excellent service and a great haircut. Thank’s, Ben."
+            </p>
+        </div>
+        <div class="testimonial">
+            <p>
+                "Had Cuts 2 U comes to our office in the Melbourne City once a month. It saves the office so much time. Sincerely, Xi."
+            </p>
+        </div>
+        <div class="testimonial">
+            <p>
+                "I travel a lot for work. Having Cuts 2 U come to my hotel while in Melbourne to cut my hair saves me a lot of time in my busy schedule. Regards, Walter."
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <hr class="footer-line">
+        <img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="footer-logo">
+        <img src="./Bitcoin_logo.png" alt="BTC Logo" class="footer-btc">
+        <p class="footer-text italic">
+            Save time and go nowhere, let Cuts 2 U come to you.<br>
+            &copy; 2023 Cuts 2 U.
+        </p>
+    </footer>
 </body>
 </html>
