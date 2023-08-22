@@ -1,40 +1,88 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index_styles.css">
+  <title>Cuts 2 U</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styles */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Menlo, monospace;
+    }
+
+    /* Page content */
+    .page-content {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .body-content {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .center-image {
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .center-image:hover {
+      transform: scaleX(-1);
+    }
+
+    /* Footer styles */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .footer-line {
+      border: 1px solid darkgrey;
+    }
+
+    .footer-logo {
+      width: 12%;
+      margin: 20px 0;
+    }
+
+    .footer-btc {
+      width: 12%;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .footer-text {
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="stylesheet" href=“/index_styles.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Cuts 2 U&lt;/title&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="page-content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="body-content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="./Melbourne.html”&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src=“./Cuts2u_running.png" alt="Melbourne Image" class="center-image"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;hr class="footer-line"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="footer-logo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="./Bitcoin_logo.png" alt="BTC Logo" class="footer-btc"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="footer-text"&gt;&lt;em&gt;save time and go nowhere, let Cuts 2 U come to you.&lt;/em&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="footer-text"&gt;&lt;em&gt;&amp;copy; 2023 Cuts 2 U&lt;/em&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <div class="page-content">
+    <div class="body-content">
+      <a href="./Melbourne.html">
+        <img src="./Cuts2u_running.png" alt="Melbourne Image" class="center-image">
+      </a>
+    </div>
+    <footer>
+      <hr class="footer-line">
+      <img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="footer-logo">
+      <img src="./Bitcoin_logo.png" alt="BTC Logo" class="footer-btc">
+      <p class="footer-text"><em>save time and go nowhere, let Cuts 2 U come to you.</em></p>
+      <p class="footer-text"><em>&copy; 2023 Cuts 2 U</em></p>
+    </footer>
+  </div>
 </body>
 </html>
