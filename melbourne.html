@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set character encoding -->
     <meta charset="UTF-8">
+    <!-- Define viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add a meta description for SEO -->
     <meta name="description" content="Delivery barber services in Melbourne provided by professional barbers. Save time and go nowhere, let Cuts 2 U come to you.">
-    <link rel="stylesheet" href="{{site.baseurl}}/m_styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Set favicon for the website -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Set favicon for older browsers -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/image/x-icon">
     <!-- Apple touch icon for iPhones and iPads -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <!-- Set the title of the webpage -->
     <title>Cuts 2 U - Melbourne</title>
     <style>
-        /* Reset default styles */
+        /* Reset default styles for consistency */
         body, h1, h2, p, hr {
             margin: 0;
             padding: 0;
         }
 
+        /* Global styles for the entire page */
         body {
             font-family: "Menlo", monospace;
             background-color: black;
             color: white;
         }
 
+        /* Styles for the header section */
         header {
             text-align: center;
             margin-top: 20px;
@@ -38,6 +45,7 @@
             margin-top: 10px;
         }
 
+        /* Styles for the main content section */
         .content {
             display: flex;
             justify-content: space-around;
@@ -54,11 +62,13 @@
             flex: 1;
         }
 
+        /* Styles for images within the content */
         .image {
             width: 100%;
             height: auto;
         }
 
+        /* Styles for different text elements */
         .align-right {
             text-align: right;
         }
@@ -71,6 +81,7 @@
             font-weight: bold;
         }
 
+        /* Styles for the contact form */
         .contact-form {
             margin-top: 20px;
             padding: 20px;
@@ -86,22 +97,23 @@
         }
 
         .contact-form input[type="submit"] {
-        background-color: white;
-        color: black;
-        font-weight: bold;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-        
-        }
-        .contact-form input[type="submit"]:hover {
-        background-color: red;
-        color: black;
-        font-weight: bold;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
         }
 
+        .contact-form input[type="submit"]:hover {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Styles for the testimonials section */
         .testimonials {
             display: flex;
             justify-content: space-between;
@@ -113,6 +125,7 @@
             margin: 0 10px;
         }
 
+        /* Styles for the footer section */
         .footer-line {
             border: 1px solid darkgrey;
             margin: 20px 0;
@@ -137,27 +150,35 @@
     </style>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="logo">
+        <!-- Display the company logo -->
+        <img src="./images/Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="logo">
+        <!-- Display the company name -->
         <h1 class="company-name">Cuts 2 U</h1>
     </header>
 
+    <!-- Main Content Section -->
     <div class="content">
+        <!-- Left Column -->
         <div class="left-column">
+            <!-- About Us -->
             <h2 class="bold">About Us.</h2>
             <p class="align-right"><br>
-                Too busy to get to the barber shop? Cuts 2 U, comes to you.<br>
+                Too busy to get to the barber shop? Stuck at home? In a wheelchair? Cuts 2 U, comes to you.<br>
                 Our team of professional barbers are available for call out to your Home, Office, Hotel or AirBnB.<br>
                 Arrived on a late flight or have early meeting? We’ll have you looking sharp.<br>
-                Individuals, families or group bookings available.
+                Individuals, families, or group bookings available.
             </p><br>
+            <!-- Service List -->
             <p class="bold">Service List.</p>
             <p class="align-right">Skin fade, taper, scissor cut, long & short hair.</p> 
             <p class="italic align-right"><br>Call out service fee and haircut.</p>
             <p class="bold align-right">$150</p>
             <p class="italic align-right"><br>Haircuts there after.</p>
             <p class="bold align-right">$90</p>
-            <p class="italic align-right"><br>We accept all major cards, cash and bitcoin.</p><br>
+            <p class="italic align-right"><br>We accept all major cards, cash, and bitcoin.</p><br>
+            <!-- Service Area -->
             <p class="bold">Service Area.</p>
             <p class="align-right"><br>
                 Melbourne CBD | Southbank | Docklands | North Melbourne <br> East Melbourne | South Melbourne | West Melbourne | & Fringe Suburbs
@@ -166,10 +187,13 @@
                 Get in contact today.<br>
                 Save time and go nowhere.
             </p>
+            <!-- Contact Form -->
             <div class="contact-form align-left">
                 <h2 class="bold">Get in Contact.</h2>
+                <!-- Email form submission -->
                 <form action="mailto:123@cuts2u.com" method="post" enctype="text/plain">
                     <p class="align-right">
+                        <!-- Input fields for name, email, phone, services -->
                         <label for="name">Name/Nym:</label>
                         <input type="text" id="name" name="name" required maxlength="20" pattern="[a-z]+">
                         <br>
@@ -179,30 +203,36 @@
                         <label for="phone">Phone number:</label>
                         <input type="tel" id="phone" name="phone" pattern="[0-9]{10,20}" minlength="10" maxlength="20">
                         <label for="services">Services required:</label>
-                        <textarea id="services" name="services" rows="4" required maxlength="420" pattern="[a-z0-9]+">Tell us what you want done, your location and a time  
-                        </textarea>
+                        <textarea id="services" name="services" rows="4" required maxlength="420" pattern="[a-z0-9]+">Tell us what you want done, your location and a time</textarea>
                         <br>
+                        <!-- Submit button -->
                         <input type="submit" value="Submit">
                     </p>
                 </form>
             </div>
         </div>
+        <!-- Right Column -->
         <div class="right-column">
-            <img src="./Cuts2u_running.png" alt="Barber Image" class="image">
+            <!-- Display an image of a barber -->
+            <img src="./images/Cuts2u_running.png" alt="Barber Image" class="image">
         </div>
     </div>
 
+    <!-- Testimonials Section -->
     <div class="testimonials">
+        <!-- Testimonial 1 -->
         <div class="testimonial">
             <p>
-                "My flight was delayed and I really needed a haircut for my daughters wedding the next day. I arranged for Cuts 2 U to come to my hotel early in the morning. Excellent service and a great haircut. Thank’s, Ben."
+                "My flight was delayed and I really needed a haircut for my daughter's wedding the next day. I arranged for Cuts 2 U to come to my hotel early in the morning. Excellent service and a great haircut. Thank's, Ben."
             </p>
         </div>
+        <!-- Testimonial 2 -->
         <div class="testimonial">
             <p>
-                "Had Cuts 2 U comes to our office in the Melbourne City once a month. It saves the office so much time. Sincerely, Henry."
+                "Had Cuts 2 U come to our office in the Melbourne City once a month. It saves the office so much time. Sincerely, Henry."
             </p>
         </div>
+        <!-- Testimonial 3 -->
         <div class="testimonial">
             <p>
                 "I travel a lot for work. Having Cuts 2 U come to my hotel while in Melbourne to cut my hair saves me a lot of time in my busy schedule. Regards, Walter."
@@ -210,10 +240,14 @@
         </div>
     </div>
 
+    <!-- Footer Section -->
     <footer>
         <hr class="footer-line">
-        <img src="./Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="footer-logo">
-        <img src="./Bitcoin_logo.png" alt="BTC Logo" class="footer-btc">
+        <!-- Display the company logo in the footer -->
+        <img src="./images/Cuts2u_logo.jpg" alt="Cuts 2 U Logo" class="footer-logo">
+        <!-- Display the Bitcoin logo in the footer -->
+        <img src="./images/Bitcoin_logo.png" alt="BTC Logo" class="footer-btc">
+        <!-- Footer text -->
         <p class="footer-text italic">
             Save time and go nowhere, let Cuts 2 U come to you.
             <br>
