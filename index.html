@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Set character encoding -->
   <meta charset="UTF-8">
+  <!-- Define viewport for responsive design -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Add a meta description for SEO -->
   <meta name="description" content="Welcome to Cuts 2 U Melbourne. Delivery barber services by professionals. Save time and go nowhere, let Cuts 2 U come to you.">
-  <link rel="stylesheet" href="{{site.baseurl}}/index_styles.css">
-  <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico?">
+  <!-- Set favicon for the website -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico">
+  <!-- Set favicon for older browsers -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- Apple touch icon for iPhones and iPads -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <!-- Apple touch icon for iPhones and iPads -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <!-- Set the title of the webpage -->
   <title>Cuts 2 U - Delivery Barber Services</title>
   <style>
-    /* Reset some default styles */
+    /* Reset some default styles for consistency */
     body, h1, p {
       margin: 0;
       padding: 0;
     }
 
-    /* Global styles */
+    /* Global styles for the entire page */
     body {
       background-color: black;
       color: white;
       font-family: Menlo, monospace;
     }
 
-    /* Page content */
+    /* Page content styles */
     .page-content {
       display: flex;
       flex-direction: column;
       min-height: 100vh;
     }
 
+    /* Styles for the main content area */
     .body-content {
       flex-grow: 1;
       display: flex;
@@ -40,7 +45,7 @@
       color: white;
     }
 
-    /* Center the image */
+    /* Center the image within its container */
     .center-image {
       max-width: 55%;
       height: auto;
@@ -49,28 +54,38 @@
       transition: transform 0.5s ease;
     }
 
+    /* Apply a transformation to the image on hover */
     .center-image:hover {
       transform: scaleX(-1);
     }
-    .reverse-text {
-            display: inline-block;
-            transition: transform 0.3s;
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
 
-        .reverse-text:hover {
-            transform: scaleX(-1);
+    /* Styles for the reverse text element */
+    .reverse-text {
+      display: inline-block;
+      transition: transform 0.3s;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    /* Apply a transformation to the reverse text element on hover */
+    .reverse-text:hover {
+      transform: scaleX(-1);
+    }
   </style>
 </head>
 <body>
+  <!-- Define the page content structure -->
   <div class="page-content">
+    <!-- Define the main content area -->
     <div class="body-content">
+      <!-- Create a link to another page -->
       <a href="./melbourne.html">
+        <!-- Display an image with alternative text -->
         <img src="./Cuts2u_running.png" alt="Enter Image" class="center-image">
+        <!-- Display reverse text with emphasis -->
         <h1 class="reverse-text"><em>ENTER</em></h1>
       </a>
     </div>
